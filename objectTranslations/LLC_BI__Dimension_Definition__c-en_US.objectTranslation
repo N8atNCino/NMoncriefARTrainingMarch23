@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Context_Object__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Excluded_Dimension_Help_Text__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Field_Path__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Policy_Type__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Target_Field_Path__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Continuous: Numeric</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discrete: Values/Groupable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excluded</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Result Column</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFORMS__Form_Template__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFORMS__Route_Group__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORMS__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

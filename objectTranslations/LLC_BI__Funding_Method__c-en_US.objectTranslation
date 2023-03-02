@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>LLC_BI__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Checking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Savings</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Completion_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Failure_Detail__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Method_Type__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Session_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Trial Deposits</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Failure</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Success</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Failure</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Reject</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Success</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_Target_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Funding_User_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

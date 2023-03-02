@@ -1,0 +1,15 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "02 February 2021": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {}
+      }
+    }
+  }
+}

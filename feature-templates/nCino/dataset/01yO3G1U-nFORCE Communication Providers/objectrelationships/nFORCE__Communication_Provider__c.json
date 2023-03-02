@@ -1,0 +1,12 @@
+[
+  {
+    "name": "nFORCE__Communication_Provider__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "setupownerid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Underwriting_Bundle__c",
+  "query": "Select Id From LLC_BI__Underwriting_Bundle__c Where ( LLC_BI__Is_Template__c \u003d true and LLC_BI__Is_Disabled__c \u003d false and LLC_BI__lookupKey__c !\u003d  null )"
+}

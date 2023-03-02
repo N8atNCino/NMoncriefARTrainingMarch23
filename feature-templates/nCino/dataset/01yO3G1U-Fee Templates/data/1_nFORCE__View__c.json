@@ -1,0 +1,39 @@
+{
+  "name": "1_nFORCE__View__c",
+  "attributes": [
+    "Id",
+    "OwnerId",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "ConnectionReceivedId",
+    "ConnectionSentId",
+    "nFORCE__Edit__c",
+    "nFORCE__Preview__c",
+    "nFORCE__Read_Only__c",
+    "nFORCE__lookupKey__c"
+  ],
+  "records": {
+    "1": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a2IDm000000PKI9MAO",
+      "IsDeleted": "",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "VIEW-000001145",
+      "OwnerId": "005Dm000000nnayIAA",
+      "SystemModstamp": "",
+      "nFORCE__Edit__c": "",
+      "nFORCE__Preview__c": "",
+      "nFORCE__Read_Only__c": "\u0026lt;div data-bind\u003d\u0026quot;if: screenResources\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;with:screenResources()[\u0026#39;nFORCE.MappedSObjectScreenResource_LLC_BI__Fee__c\u0026#39;]\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;if:getViewModel().hasValidChildren($data, [0])\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;with:propertyBag\u0026quot; class\u003d\u0026quot;container-fluid avoid-break-inside\u0026quot;\u0026gt;\u0026lt;div class\u003d\u0026quot;row\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Type__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Type__c.selectedOption\u0026amp;quot;,true,\u0026amp;quot;label\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Code__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Code__c.selectedOption\u0026amp;quot;,true,\u0026amp;quot;label\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div class\u003d\u0026quot;row\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Amount__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;currencyElement:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Amount__c.value\u0026amp;quot;),scale:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Amount__c.scale\u0026amp;quot;),currencyIsoCode:getContent(\u0026amp;quot;LLC_BI__Fee__c_CurrencyIsoCode.value\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Payable_To__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Payable_To__c.displayValue\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div class\u003d\u0026quot;row\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Paid_By__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Paid_By__c.selectedOption\u0026amp;quot;,true,\u0026amp;quot;label\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Collection_Method__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Collection_Method__c.selectedOption\u0026amp;quot;,true,\u0026amp;quot;label\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div class\u003d\u0026quot;row\u0026quot;\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Paid_at_Closing__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Paid_at_Closing__c.selectedOption\u0026amp;quot;,true,\u0026amp;quot;label\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Type_Description__c.fieldLabel\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3 text-right text-label\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div data-bind\u003d\u0026quot;text:getContent(\u0026amp;quot;LLC_BI__Fee__c_LLC_BI__Fee_Type_Description__c.value\u0026amp;quot;)\u0026quot; class\u003d\u0026quot;col-xs-3\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;div style\u003d\u0026quot;clear:both;\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/div\u0026gt;",
+      "nFORCE__lookupKey__c": "a2IDm000000PKI9MAO"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__CFG_ConfigValue__c",
+        "LLC_BI__CFG_CKJ__c",
+        "LLC_BI__CFG_ConfigKey__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__CFG_ConfigValue__c"
+    }
+  ]
+}

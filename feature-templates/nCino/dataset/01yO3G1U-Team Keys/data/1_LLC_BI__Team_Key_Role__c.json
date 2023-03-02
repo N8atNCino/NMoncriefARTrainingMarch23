@@ -1,0 +1,69 @@
+{
+  "name": "1_LLC_BI__Team_Key_Role__c",
+  "attributes": [
+    "Id",
+    "OwnerId",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "ConnectionReceivedId",
+    "ConnectionSentId",
+    "LLC_BI__Role__c",
+    "LLC_BI__Team_Key__c",
+    "LLC_BI__lookupKey__c"
+  ],
+  "records": {
+    "1": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a1oDm000000XrR9IAK",
+      "IsDeleted": "",
+      "LLC_BI__Role__c": "",
+      "LLC_BI__Team_Key__c": "a1EDm000000gMXNMA2",
+      "LLC_BI__lookupKey__c": "a1oDm000000XrR9IAK",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "TKR-1",
+      "OwnerId": "005Dm000000nnayIAA",
+      "SystemModstamp": ""
+    },
+    "2": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a1oDm000000XrRAIA0",
+      "IsDeleted": "",
+      "LLC_BI__Role__c": "",
+      "LLC_BI__Team_Key__c": "a1EDm000000gMXOMA2",
+      "LLC_BI__lookupKey__c": "a1oDm000000XrRAIA0",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "TKR-0",
+      "OwnerId": "005Dm000000nnayIAA",
+      "SystemModstamp": ""
+    },
+    "3": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a1oDm000000XrRBIA0",
+      "IsDeleted": "",
+      "LLC_BI__Role__c": "",
+      "LLC_BI__Team_Key__c": "a1EDm000000gMXPMA2",
+      "LLC_BI__lookupKey__c": "a1oDm000000XrRBIA0",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "TKR-2",
+      "OwnerId": "005Dm000000nnayIAA",
+      "SystemModstamp": ""
+    }
+  }
+}

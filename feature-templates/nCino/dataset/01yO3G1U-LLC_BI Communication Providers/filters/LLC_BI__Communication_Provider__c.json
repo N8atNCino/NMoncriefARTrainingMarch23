@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Communication_Provider__c",
+  "query": "Select Id From LLC_BI__Communication_Provider__c Where ( Name !\u003d  null )"
+}

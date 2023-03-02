@@ -1,0 +1,25 @@
+[
+  {
+    "name": "nFORMS__Form_Template__c",
+    "lookupobjfieldmap": {
+      "nFORMS__Form_Template_Route_Group_Configuration__c": "nFORMS__Form_Template__c",
+      "Attachment": "ParentId"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "Attachment",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

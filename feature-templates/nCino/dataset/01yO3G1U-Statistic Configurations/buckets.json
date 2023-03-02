@@ -1,0 +1,12 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__StatisticsConfiguration__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__StatisticsConfiguration__c"
+    }
+  ]
+}

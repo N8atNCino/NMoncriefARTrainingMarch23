@@ -1,0 +1,28 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Screen__c",
+        "LLC_BI__Product_Type__c",
+        "LLC_BI__Product_Connection__c",
+        "nFORCE__Brand__c",
+        "LLC_BI__Product__c",
+        "LLC_BI__Institution__c",
+        "LLC_BI__EmailTemplate_Institution__c",
+        "LLC_BI__Funding_Method_Type__c",
+        "LLC_BI__Product_State_Config__c",
+        "nFORCE__Screen_Section__c",
+        "LLC_BI__Tier__c",
+        "nFORCE__Section_Configuration__c",
+        "LLC_BI__Bill_Point__c",
+        "LLC_BI__Product_Feature__c",
+        "LLC_BI__Product_Funding_Method_Type__c",
+        "LLC_BI__Deposit_Rate_Structure__c",
+        "LLC_BI__Product_Line__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Product_Line__c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "cm_Industry_Code__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "cm_Industry_Code__c"
+    }
+  ]
+}

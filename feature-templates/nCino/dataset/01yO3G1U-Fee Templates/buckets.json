@@ -1,0 +1,20 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Template_Records__c",
+        "nFORCE__Widget__c",
+        "nFORCE__Screen_Section__c",
+        "nFORCE__Section_Configuration__c",
+        "nFORCE__Screen__c",
+        "nFORCE__View__c",
+        "nFORCE__Screen_Segment__c",
+        "LLC_BI__Product__c",
+        "LLC_BI__Product_Template_Join__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Template_Records__c"
+    }
+  ]
+}

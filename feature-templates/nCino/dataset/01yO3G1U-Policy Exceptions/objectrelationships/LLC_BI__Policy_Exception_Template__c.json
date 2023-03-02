@@ -1,0 +1,23 @@
+[
+  {
+    "name": "LLC_BI__Policy_Exception_Template__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Policy_Exception_Mitigation_Reason__c": "LLC_BI__Policy_Exception_Template__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Policy_Exception_Mitigation_Reason__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "name": "cm_Industry_Code__c",
+  "query": "Select Id From cm_Industry_Code__c Where ( Id !\u003d  null )"
+}

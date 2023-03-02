@@ -1,0 +1,4 @@
+{
+  "name": "nFORCE__Rule_Engine_Context__c",
+  "query": "Select Id From nFORCE__Rule_Engine_Context__c Where ( nFORCE__lookupKey__c !\u003d  null )"
+}

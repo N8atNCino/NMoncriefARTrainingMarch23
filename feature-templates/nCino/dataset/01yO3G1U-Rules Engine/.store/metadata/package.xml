@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>55.0</version>
+    <types>
+        <members>nFORCE__Rule_Engine_Context_Rule__c.nFORCE__Description__c</members>
+        <members>nFORCE__Rule_Engine_Context_Rule__c.nFORCE__Rule_Engine_Context__c</members>
+        <members>nFORCE__Rule_Engine_Context_Rule__c.nFORCE__lookupKey__c</members>
+        <members>nFORCE__Rule_Engine_Context__c.nFORCE__Description__c</members>
+        <members>nFORCE__Rule_Engine_Context__c.nFORCE__lookupKey__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Active__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Description__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__End_Date__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Rule_Engine_Context_Rule__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Rule_Engine_Rule_Name__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Rule_Engine_Rule_Reference__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Rule_Engine__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__Start_Date__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__lookupKey__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>nFORCE__Rule_Engine_Context_Rule__c</members>
+        <members>nFORCE__Rule_Engine_Context__c</members>
+        <members>nFORCE__Rule_Engine_Rule__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>nFORCE</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>nFORCE__Rule_Engine_Rule__c.nFORCE__All</members>
+        <name>ListView</name>
+    </types>
+</Package>

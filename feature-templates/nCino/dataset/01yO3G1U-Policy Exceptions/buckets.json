@@ -1,0 +1,13 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Policy_Exception_Mitigation_Reason__c",
+        "LLC_BI__Policy_Exception_Template__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Policy_Exception_Template__c"
+    }
+  ]
+}

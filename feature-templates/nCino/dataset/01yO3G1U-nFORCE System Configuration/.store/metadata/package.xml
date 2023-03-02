@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>55.0</version>
+    <types>
+        <members>nFORCE__System_Configuration__c.nFORCE__Allows_Reconfiguration__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Class_Name__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Help_Text__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Is_Active__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Is_Configured__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Is_Link__c</members>
+        <members>nFORCE__System_Configuration__c.nFORCE__Link_URL__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>nFORCE__System_Configuration__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>nFORCE</members>
+        <name>InstalledPackage</name>
+    </types>
+</Package>

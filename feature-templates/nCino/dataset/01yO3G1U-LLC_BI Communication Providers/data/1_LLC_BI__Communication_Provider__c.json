@@ -1,0 +1,35 @@
+{
+  "name": "1_LLC_BI__Communication_Provider__c",
+  "attributes": [
+    "Id",
+    "IsDeleted",
+    "Name",
+    "SetupOwnerId",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "LLC_BI__Billable__c",
+    "LLC_BI__Class_Name__c",
+    "LLC_BI__Destination__c",
+    "LLC_BI__IsActive__c"
+  ],
+  "records": {
+    "1": {
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a0KDm000000d2vnMAA",
+      "IsDeleted": "",
+      "LLC_BI__Billable__c": "true",
+      "LLC_BI__Class_Name__c": "LLC_BI.DocuSignCommunicator",
+      "LLC_BI__Destination__c": "https://demo.docusign.net/restapi/v2",
+      "LLC_BI__IsActive__c": "true",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "DocuSign Communicator",
+      "SetupOwnerId": "",
+      "SystemModstamp": ""
+    }
+  }
+}

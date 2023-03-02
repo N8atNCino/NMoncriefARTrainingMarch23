@@ -1,0 +1,45 @@
+{
+  "name": "1_nFORCE__Screen__c",
+  "attributes": [
+    "Id",
+    "OwnerId",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "LastActivityDate",
+    "LastViewedDate",
+    "LastReferencedDate",
+    "ConnectionReceivedId",
+    "ConnectionSentId",
+    "nFORCE__Disable_Print__c",
+    "nFORCE__Show_Link_To_Context_Object__c",
+    "nFORCE__lookupKey__c",
+    "nFORCE__Disable_Read_Only_View__c"
+  ],
+  "records": {
+    "1": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a2GDm000000LGEfMAO",
+      "IsDeleted": "",
+      "LastActivityDate": "",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "LastReferencedDate": "",
+      "LastViewedDate": "",
+      "Name": "Appraisal Fee Screen",
+      "OwnerId": "005Dm000000nnayIAA",
+      "SystemModstamp": "",
+      "nFORCE__Disable_Print__c": "false",
+      "nFORCE__Disable_Read_Only_View__c": "false",
+      "nFORCE__Show_Link_To_Context_Object__c": "true",
+      "nFORCE__lookupKey__c": "6573485672623625"
+    }
+  }
+}

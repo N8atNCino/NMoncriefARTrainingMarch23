@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__KO_App_Column_Definition__c",
+  "query": "Select Id From LLC_BI__KO_App_Column_Definition__c Where ( Name !\u003d  null )"
+}

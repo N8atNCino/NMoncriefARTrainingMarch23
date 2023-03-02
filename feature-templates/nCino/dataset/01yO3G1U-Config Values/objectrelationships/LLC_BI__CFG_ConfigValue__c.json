@@ -1,0 +1,35 @@
+[
+  {
+    "name": "LLC_BI__CFG_ConfigValue__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__CFG_CKJ__c": "LLC_BI__CFG_ConfigValue__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__CFG_ConfigKey__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__CFG_CKJ__c": "LLC_BI__CFG_ConfigKeys__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__CFG_CKJ__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Fall 2021": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {
+          "CustomObject": [
+            "LLC_BI__Funding_Method__c",
+            "Account",
+            "LLC_BI__Pricing_Option__c",
+            "LLC_BI__Annual_Review__c",
+            "LLC_BI__Loan__c",
+            "LLC_BI__Risk_Grade_Template__c",
+            "Opportunity",
+            "nFORCE__Group__c",
+            "LLC_BI__Deposit__c",
+            "LLC_BI__Product_Package__c",
+            "LLC_BI__Credit_Memo__c"
+          ]
+        }
+      }
+    }
+  }
+}

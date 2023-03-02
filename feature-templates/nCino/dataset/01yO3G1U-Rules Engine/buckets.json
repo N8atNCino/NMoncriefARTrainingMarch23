@@ -1,0 +1,14 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Rule_Engine_Context_Rule__c",
+        "nFORCE__Rule_Engine_Rule__c",
+        "nFORCE__Rule_Engine_Context__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "nFORCE__Rule_Engine_Context__c"
+    }
+  ]
+}

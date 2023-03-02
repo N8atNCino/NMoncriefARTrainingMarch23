@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Credit_Memo__c",
+  "query": "Select Id From LLC_BI__Credit_Memo__c Where ( LLC_BI__Is_Template__c \u003d true  and LLC_BI__lookupKey__c !\u003d  null )"
+}

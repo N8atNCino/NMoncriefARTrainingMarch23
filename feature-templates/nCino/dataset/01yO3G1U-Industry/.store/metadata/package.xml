@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>55.0</version>
+    <types>
+        <members>cm_Industry_Code__c.cm_Industry_Code_Description__c</members>
+        <members>cm_Industry_Code__c.cm_Industry_Code__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>cm_Industry_Code__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>DMAdmin</members>
+        <members>LLC_BI</members>
+        <members>LLC_HI</members>
+        <members>NDOC</members>
+        <members>nBIDC</members>
+        <members>nBIDCA</members>
+        <members>nCRED</members>
+        <members>nCino</members>
+        <members>nDESIGN</members>
+        <members>nFORCE</members>
+        <members>nFORMS</members>
+        <members>nFUSE</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+</Package>

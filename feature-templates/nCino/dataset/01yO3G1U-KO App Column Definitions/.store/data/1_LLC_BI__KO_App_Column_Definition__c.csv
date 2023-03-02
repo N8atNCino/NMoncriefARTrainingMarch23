@@ -1,0 +1,7 @@
+"Id","IsDeleted","Name","SetupOwnerId","CreatedDate","CreatedById","LastModifiedDate","LastModifiedById","SystemModstamp","LLC_BI__Category__c","LLC_BI__Data_Type__c","LLC_BI__Header__c","LLC_BI__KO_App__c","LLC_BI__Sort_Order__c"
+"a3DDm000000bq2sMAA","","42948692742165854","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","string","Description","rent_roll","20.0"
+"a3DDm000000bq2tMAA","","42618645161826094","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","string","Unit","rent_roll","30.0"
+"a3DDm000000bq2uMAA","","42747948812480781","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","date","Lease Originated","rent_roll","40.0"
+"a3DDm000000bq2vMAA","","42454635637111134","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","date","Current Lease Start","rent_roll","50.0"
+"a3DDm000000bq2wMAA","","42191195170289666","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","date","Lease Expiration","rent_roll","60.0"
+"a3DDm000000bq2xMAA","","42105404219402251","","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","default","string","Lease Type","rent_roll","70.0"

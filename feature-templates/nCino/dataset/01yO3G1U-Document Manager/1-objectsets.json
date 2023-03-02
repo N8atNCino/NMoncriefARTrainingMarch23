@@ -1,0 +1,16 @@
+[
+  "LLC_BI__DocType_Role__c,LLC_BI__Role__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__Product__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocTab__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocClass__c,LLC_BI__DocType__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocClass__c,LLC_BI__DocType__c,LLC_BI__DocTab__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductDocTab__c,LLC_BI__DocTab__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocClass__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocType__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductDocTab__c,LLC_BI__Product__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__Requirement__c,LLC_BI__Checklist__c,LLC_BI__Treasury_Service__c,LLC_BI__Product__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocManager__c",
+  "LLC_BI__ProductCCL__c,LLC_BI__ClosingChecklist__c,LLC_BI__DocType__c,LLC_BI__DocTab__c,LLC_BI__DocManager__c",
+  "LLC_BI__DocType_Role__c,LLC_BI__DocType__c,LLC_BI__DocTab__c,LLC_BI__DocManager__c",
+  "LLC_BI__DocType_Role__c,LLC_BI__DocType__c,LLC_BI__DocManager__c"
+]

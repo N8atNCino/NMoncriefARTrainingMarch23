@@ -1,0 +1,4 @@
+{
+  "name": "nFORCE__System_Configuration__c",
+  "query": "Select Id From nFORCE__System_Configuration__c Where ( Name !\u003d  null )"
+}

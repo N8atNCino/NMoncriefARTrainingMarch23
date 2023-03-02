@@ -1,0 +1,201 @@
+!!com.rabit.featuremigration.beans.vcstructure.ConfigManifest
+packageDirectories:
+  packagePaths:
+    dataset:
+      features:
+        01yO3G1U-Classic Credit Memo:
+          path: dataset/01yO3G1U-Classic Credit Memo
+          prefix: ncino
+          standardFeature: false
+          versions:
+            17 May 2021:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Collateral Types:
+          path: dataset/01yO3G1U-Collateral Types
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Config Values:
+          path: dataset/01yO3G1U-Config Values
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2020 V1:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Connection Roles:
+          path: dataset/01yO3G1U-Connection Roles
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2020 V2:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Covenant Types:
+          path: dataset/01yO3G1U-Covenant Types
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Document Manager:
+          path: dataset/01yO3G1U-Document Manager
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Fee Templates:
+          path: dataset/01yO3G1U-Fee Templates
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:45'
+        01yO3G1U-Forms:
+          path: dataset/01yO3G1U-Forms
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2022 v2:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-ID Document Type:
+          path: dataset/01yO3G1U-ID Document Type
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Industry:
+          path: dataset/01yO3G1U-Industry
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2022:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-KO App Column Definitions:
+          path: dataset/01yO3G1U-KO App Column Definitions
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-LLC_BI Communication Providers:
+          path: dataset/01yO3G1U-LLC_BI Communication Providers
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-LLC_BI System Properties:
+          path: dataset/01yO3G1U-LLC_BI System Properties
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Policy Exceptions:
+          path: dataset/01yO3G1U-Policy Exceptions
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Product Hierarchy:
+          path: dataset/01yO3G1U-Product Hierarchy
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Questionaire:
+          path: dataset/01yO3G1U-Questionaire
+          prefix: ncino
+          standardFeature: false
+          versions:
+            02 February 2021:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Rates:
+          path: dataset/01yO3G1U-Rates
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Related List Copy Configurations:
+          path: dataset/01yO3G1U-Related List Copy Configurations
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Risk Grade Templates:
+          path: dataset/01yO3G1U-Risk Grade Templates
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Rules Engine:
+          path: dataset/01yO3G1U-Rules Engine
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019 V2:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Screens:
+          path: dataset/01yO3G1U-Screens
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2021:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Spread Templates:
+          path: dataset/01yO3G1U-Spread Templates
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2022 v2:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Statistic Configurations:
+          path: dataset/01yO3G1U-Statistic Configurations
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-Team Keys:
+          path: dataset/01yO3G1U-Team Keys
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-User Interface:
+          path: dataset/01yO3G1U-User Interface
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2022 v2:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-nFORCE Communication Providers:
+          path: dataset/01yO3G1U-nFORCE Communication Providers
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-nFORCE System Configuration:
+          path: dataset/01yO3G1U-nFORCE System Configuration
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Fall 2019:
+              modifiedDate: '2023-03-02 21:05:46'
+        01yO3G1U-nFORCE System Properties:
+          path: dataset/01yO3G1U-nFORCE System Properties
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2022:
+              modifiedDate: '2023-03-02 21:05:46'

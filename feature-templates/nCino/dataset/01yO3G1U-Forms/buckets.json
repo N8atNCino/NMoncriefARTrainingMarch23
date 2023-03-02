@@ -1,0 +1,16 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Route_Group__c",
+        "nFORCE__Group__c",
+        "nFORMS__Form_Template__c",
+        "nFORMS__Form_Template_Route_Group_Configuration__c",
+        "nFORCE__Route__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "nFORMS__Form_Template__c"
+    }
+  ]
+}

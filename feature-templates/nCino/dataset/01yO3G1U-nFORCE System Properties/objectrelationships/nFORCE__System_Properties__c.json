@@ -1,0 +1,12 @@
+[
+  {
+    "name": "nFORCE__System_Properties__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "setupownerid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

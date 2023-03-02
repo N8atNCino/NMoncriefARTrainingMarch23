@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__RelatedListsCopyConfiguration__c",
+  "query": "Select Id From LLC_BI__RelatedListsCopyConfiguration__c Where ( Name !\u003d  null )"
+}

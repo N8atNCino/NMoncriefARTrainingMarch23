@@ -1,0 +1,125 @@
+[
+  {
+    "name": "LLC_BI__Underwriting_Bundle__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Projection_Bundle_Junction__c": "LLC_BI__Bundle__c",
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Bundle__c",
+      "LLC_BI__Sensitivity_Analysis__c": "LLC_BI__Bundle__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Spread_Statement_Type__c",
+    "cirrefobjfieldmap": {
+      "LLC_BI__Spread_Statement_Record_Total__c": "LLC_BI__Spread_Statement_Total_Group__c,LLC_BI__Calc_Common_Sizing_Total_Group__c",
+      "LLC_BI__Spread_Statement_Record__c": "LLC_BI__Calc_Common_Sizing_Record__c"
+    },
+    "lookupobjfieldmap": {
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Source_Statement__c",
+      "LLC_BI__Tenant_Information__c": "LLC_BI__Spread_Statement_Template__c",
+      "LLC_BI__Spread_Statement_Record_Total__c": "LLC_BI__Spread_Statement_Type__c",
+      "LLC_BI__Spread_Statement_Record__c": "LLC_BI__Spread_Statement_Type__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Tenant_Information__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Tenant_Information__c": "LLC_BI__Parent_Tenant_Information__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Sensitivity_Analysis__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Spread_Statement_Record_Total__c",
+    "cirrefobjfieldmap": {
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Spread_Statement_Total_Group__c,LLC_BI__Calc_Common_Sizing_Total_Group__c",
+      "LLC_BI__Spread_Statement_Record__c": "LLC_BI__Linked_Spread_Statement_Total_Group__c"
+    },
+    "lookupobjfieldmap": {
+      "LLC_BI__Spread_Record_Total_Classification__c": "LLC_BI__Spread_Statement_Total_Group__c",
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Calc_Common_Sizing_Total_Group__c,LLC_BI__Spread_Statement_Total_Group__c",
+      "LLC_BI__Spread_Statement_Record_Total__c": "LLC_BI__Source_Group__c",
+      "LLC_BI__Spread_Statement_Record__c": "LLC_BI__Linked_Spread_Statement_Total_Group__c,LLC_BI__Spread_Statement_Record_Total__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Classification__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Spread_Record_Total_Classification__c": "LLC_BI__Classification__c",
+      "LLC_BI__Spread_Record_Classification__c": "LLC_BI__Classification__c",
+      "LLC_BI__Spread_Projections_Driver__c": "LLC_BI__Classification__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Spread_Statement_Record__c",
+    "cirrefobjfieldmap": {
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Calc_Common_Sizing_Record__c",
+      "LLC_BI__Spread_Statement_Record_Total__c": "LLC_BI__Linked_Spread_Statement_Total_Group__c"
+    },
+    "lookupobjfieldmap": {
+      "LLC_BI__Spread_Statement_Type__c": "LLC_BI__Calc_Common_Sizing_Record__c",
+      "LLC_BI__Spread_Record_Classification__c": "LLC_BI__Spread_Statement_Record__c",
+      "LLC_BI__Spread_Projections_Driver__c": "LLC_BI__Spread_Statement_Record__c",
+      "LLC_BI__Spread_Statement_Record__c": "LLC_BI__Associated_Parent_Record__c,LLC_BI__Cloned_Source_Row__c,LLC_BI__Linked_Spread_Statement_Record__c,LLC_BI__Source_Row__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Spread_Record_Total_Classification__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Spread_Record_Classification__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

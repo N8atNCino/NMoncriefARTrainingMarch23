@@ -1,0 +1,19 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Fall 2021": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {
+          "CustomObject": [
+            "nFORCE__Route__c"
+          ]
+        }
+      }
+    }
+  }
+}

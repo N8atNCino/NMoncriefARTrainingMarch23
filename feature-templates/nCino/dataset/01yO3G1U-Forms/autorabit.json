@@ -1,0 +1,31 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Spring 2022 v2": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {
+          "CustomObject": [
+            "LLC_BI__Checklist__c",
+            "LLC_BI__ClosingChecklist__c",
+            "LLC_BI__Product__c",
+            "LLC_BI__Requirement__c",
+            "LLC_BI__Application__c",
+            "nFORCE__Route_Agreement__c",
+            "LLC_BI__Treasury_Service__c",
+            "LLC_BI__Loan_Collateral2__c",
+            "LLC_BI__Legal_Entities__c",
+            "LLC_BI__Collateral__c",
+            "LLC_BI__Loan_Collateral__c",
+            "nFORCE__Route_Terms__c",
+            "nFORCE__Session__c"
+          ]
+        }
+      }
+    }
+  }
+}

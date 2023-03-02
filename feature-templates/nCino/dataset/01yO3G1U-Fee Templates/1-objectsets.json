@@ -1,0 +1,17 @@
+[
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Product__c,nFORCE__Screen__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Product__c,nFORCE__Screen_Section__c,nFORCE__Widget__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Product__c,LLC_BI__Product_Type__c,nFORCE__Group__c,nFORCE__Screen__c",
+  "nFORCE__Section_Configuration__c,nFORCE__Screen_Section__c,nFORCE__Screen__c",
+  "nFORCE__Screen_Segment__c,nFORCE__Screen__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Template_Records__c,nFORCE__Screen_Section__c,nFORCE__Widget__c",
+  "nFORCE__Screen_Segment__c,nFORCE__Screen_Section__c,nFORCE__View__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Product__c,nFORCE__Screen_Section__c,nFORCE__View__c",
+  "nFORCE__Screen_Segment__c,nFORCE__Screen_Section__c,nFORCE__Widget__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Template_Records__c,nFORCE__Screen_Section__c,nFORCE__View__c",
+  "nFORCE__Screen_Segment__c,nFORCE__Screen_Section__c,nFORCE__Screen__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Template_Records__c,nFORCE__Screen_Section__c,nFORCE__Screen__c",
+  "LLC_BI__Product_Template_Join__c,LLC_BI__Product__c,nFORCE__Screen_Section__c,nFORCE__Screen__c",
+  "nFORCE__Section_Configuration__c,nFORCE__Screen_Section__c,nFORCE__View__c",
+  "nFORCE__Section_Configuration__c,nFORCE__Screen_Section__c,nFORCE__Widget__c"
+]

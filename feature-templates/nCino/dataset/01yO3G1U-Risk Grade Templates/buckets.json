@@ -1,0 +1,15 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Risk_Grade_Criteria__c",
+        "LLC_BI__Risk_Grade_Factor__c",
+        "LLC_BI__Risk_Grade_Template__c",
+        "LLC_BI__Risk_Grade_Group__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Risk_Grade_Template__c"
+    }
+  ]
+}

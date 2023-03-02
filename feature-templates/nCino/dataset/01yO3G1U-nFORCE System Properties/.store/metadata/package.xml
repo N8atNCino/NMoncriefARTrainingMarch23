@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>55.0</version>
+    <types>
+        <members>nFORCE__System_Properties__c.nFORCE__Category_Name__c</members>
+        <members>nFORCE__System_Properties__c.nFORCE__Description__c</members>
+        <members>nFORCE__System_Properties__c.nFORCE__Institution_ID__c</members>
+        <members>nFORCE__System_Properties__c.nFORCE__Is_Active__c</members>
+        <members>nFORCE__System_Properties__c.nFORCE__Key__c</members>
+        <members>nFORCE__System_Properties__c.nFORCE__Value__c</members>
+        <members>nFORCE__System_Properties__c.nFUSE__Is_Encrypted__c</members>
+        <members>nFORCE__System_Properties__c.nFUSE__Value_Data_Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>nFORCE__System_Properties__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>nFORCE</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>nFORCE__System_Properties__c.All</members>
+        <name>ListView</name>
+    </types>
+</Package>

@@ -1,0 +1,15 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Screen__c",
+        "nFORCE__Screen_Section__c",
+        "LLC_BI__Id_Document_Type__c",
+        "LLC_BI__Id_Document_Requirement__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Id_Document_Type__c"
+    }
+  ]
+}

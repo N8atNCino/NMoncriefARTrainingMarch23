@@ -1,0 +1,20 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Spring 2022 v2": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {
+          "CustomObject": [
+            "LLC_BI__Spread_Statement_Period__c",
+            "LLC_BI__Spread_Statement_Record_Value__c"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "LLC_BI__Connection_Role__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Connection_Role__c": "LLC_BI__Reciprocal_Role__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

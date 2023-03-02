@@ -1,0 +1,23 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Projection_Bundle_Junction__c",
+        "LLC_BI__Spread_Record_Total_Classification__c",
+        "LLC_BI__Spread_Statement_Type__c",
+        "LLC_BI__Classification__c",
+        "LLC_BI__Tenant_Information__c",
+        "LLC_BI__Sensitivity_Analysis__c",
+        "LLC_BI__Spread_Projections_Template__c",
+        "LLC_BI__Spread_Record_Classification__c",
+        "LLC_BI__Spread_Projections_Driver__c",
+        "LLC_BI__Spread_Statement_Record_Total__c",
+        "LLC_BI__Spread_Statement_Record__c",
+        "LLC_BI__Underwriting_Bundle__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Underwriting_Bundle__c"
+    }
+  ]
+}

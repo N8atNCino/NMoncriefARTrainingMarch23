@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>55.0</version>
+    <types>
+        <members>nFORCE__Communication_Provider__c.nFORCE__Billable__c</members>
+        <members>nFORCE__Communication_Provider__c.nFORCE__Class_Name__c</members>
+        <members>nFORCE__Communication_Provider__c.nFORCE__Destination__c</members>
+        <members>nFORCE__Communication_Provider__c.nFORCE__IsActive__c</members>
+        <members>nFORCE__Communication_Provider__c.nFORCE__Is_Org_to_Org__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>nFORCE__Communication_Provider__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>nFORCE</members>
+        <name>InstalledPackage</name>
+    </types>
+</Package>

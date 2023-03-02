@@ -1,0 +1,4 @@
+{
+  "name": "nFORCE__Communication_Provider__c",
+  "query": "Select Id From nFORCE__Communication_Provider__c Where ( Name !\u003d  null )"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "1_LLC_BI__Risk_Grade_Group__c",
+  "attributes": [
+    "Id",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "ConnectionReceivedId",
+    "ConnectionSentId",
+    "LLC_BI__Risk_Grade_Template__c",
+    "LLC_BI__Group_Number__c",
+    "LLC_BI__Weight__c",
+    "LLC_BI__lookupKey__c"
+  ],
+  "records": {
+    "1": {
+      "ConnectionReceivedId": "",
+      "ConnectionSentId": "",
+      "CreatedById": "005Dm000000nnayIAA",
+      "CreatedDate": "2023-02-24T16:04:45.000Z",
+      "Id": "a22Dm0000008tS3IAI",
+      "IsDeleted": "",
+      "LLC_BI__Group_Number__c": "",
+      "LLC_BI__Risk_Grade_Template__c": "a10Dm000000MTkoIAG",
+      "LLC_BI__Weight__c": "1.0",
+      "LLC_BI__lookupKey__c": "a22Dm0000008tS3IAI",
+      "LastModifiedById": "005Dm000000nnayIAA",
+      "LastModifiedDate": "2023-02-24T16:04:45.000Z",
+      "Name": "CRE Group",
+      "SystemModstamp": ""
+    }
+  }
+}

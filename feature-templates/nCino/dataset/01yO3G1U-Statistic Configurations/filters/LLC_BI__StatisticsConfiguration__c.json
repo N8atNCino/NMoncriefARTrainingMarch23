@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__StatisticsConfiguration__c",
+  "query": "Select Id From LLC_BI__StatisticsConfiguration__c Where ( Name !\u003d  null )"
+}

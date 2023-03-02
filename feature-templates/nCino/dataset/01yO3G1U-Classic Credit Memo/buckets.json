@@ -1,0 +1,20 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Widget__c",
+        "nFORCE__Screen_Section__c",
+        "nFORCE__Section_Configuration__c",
+        "nFORCE__Screen__c",
+        "nFORCE__View__c",
+        "LLC_BI__Credit_Memo_Screen__c",
+        "nFORCE__Screen_Segment__c",
+        "LLC_BI__Credit_Memo__c",
+        "nFORCE__Layout__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Credit_Memo__c"
+    }
+  ]
+}

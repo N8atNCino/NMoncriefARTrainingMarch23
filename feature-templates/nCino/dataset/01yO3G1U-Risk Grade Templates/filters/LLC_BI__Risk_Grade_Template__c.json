@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Risk_Grade_Template__c",
+  "query": "Select Id From LLC_BI__Risk_Grade_Template__c Where ( LLC_BI__Is_Template__c \u003d true )"
+}

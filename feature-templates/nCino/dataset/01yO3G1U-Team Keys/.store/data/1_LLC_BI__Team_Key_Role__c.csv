@@ -1,0 +1,4 @@
+"Id","OwnerId","IsDeleted","Name","CreatedDate","CreatedById","LastModifiedDate","LastModifiedById","SystemModstamp","ConnectionReceivedId","ConnectionSentId","LLC_BI__Role__c","LLC_BI__Team_Key__c","LLC_BI__lookupKey__c"
+"a1oDm000000XrR9IAK","005Dm000000nnayIAA","","TKR-1","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","","","","a1EDm000000gMXNMA2","a1oDm000000XrR9IAK"
+"a1oDm000000XrRAIA0","005Dm000000nnayIAA","","TKR-0","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","","","","a1EDm000000gMXOMA2","a1oDm000000XrRAIA0"
+"a1oDm000000XrRBIA0","005Dm000000nnayIAA","","TKR-2","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","2023-02-24T16:04:45.000Z","005Dm000000nnayIAA","","","","","a1EDm000000gMXPMA2","a1oDm000000XrRBIA0"

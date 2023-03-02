@@ -1,0 +1,48 @@
+[
+  {
+    "name": "nFORCE__Screen__c",
+    "lookupobjfieldmap": {
+      "nFORCE__Screen_Section__c": "nFORCE__Screen__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "nFORCE__Screen_Section__c",
+    "lookupobjfieldmap": {
+      "nFORCE__Screen_Section__c": "nFORCE__Parent_Screen_Section__c",
+      "LLC_BI__Id_Document_Type__c": "LLC_BI__Screen_Section__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Id_Document_Requirement__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Id_Document_Type__c": "LLC_BI__Id_Document_Requirement__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Id_Document_Type__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>LLC_BI__Context_Object_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Context_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Program_Attribute_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Root_Object_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

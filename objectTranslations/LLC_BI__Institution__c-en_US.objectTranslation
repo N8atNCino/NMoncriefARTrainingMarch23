@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>LLC_BI__Brand__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Community_Extension__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Community_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Community_Network_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Look_Up_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Permission_Set__c</name>
+    </fields>
+</CustomObjectTranslation>

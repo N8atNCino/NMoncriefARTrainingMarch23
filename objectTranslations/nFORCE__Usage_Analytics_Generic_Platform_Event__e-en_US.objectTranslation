@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Executing_User_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Topic__c</name>
+    </fields>
+</CustomObjectTranslation>

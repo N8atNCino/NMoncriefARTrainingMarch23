@@ -50616,6 +50616,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.UBLOSHousehold_Direct_Exposure__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Website</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -57320,6 +57325,31 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Appraisal_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Appraisal_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Assignment_of_Leases__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Brokerage_Trust_Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Certificate_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Collateral__c.Integration_Source__c</field>
         <readable>true</readable>
@@ -58230,9 +58260,64 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Land_Value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Loan_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Margin_Percent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Collateral__c.Migration_ID__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Occupancy_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Stock_Issued_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Stock_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Structure_Value_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Structure_Value_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Structure_Value_3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Structure_Value_4__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Collateral__c.Structure_Value_5__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -58621,6 +58706,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LLC_BI__Covenant2__c.UBLOS_Covenant_Definition__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LLC_BI__Covenant2__c.isTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -58782,6 +58872,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Covenant_Type__c.LLC_BI__lookupKey__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Covenant_Type__c.UBLOS_Standard_Covenant_Definition__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -61150,6 +61245,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Fee_Loan_Aggregate__c.Good_Faith_Deposit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Additional_Charges__c</field>
         <readable>true</readable>
@@ -61373,6 +61473,16 @@
         <editable>true</editable>
         <field>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__lookupKey__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Fee__c.Commitment_Note_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Fee__c.Deduct_from_Good_Faith_Deposit__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -62745,6 +62855,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Legal_Entities__c.Burn_Down_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Legal_Entities__c.Burn_Down_Percentage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Legal_Entities__c.Burn_Down_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Legal_Entities__c.Integration_Source__c</field>
         <readable>true</readable>
@@ -63173,6 +63298,11 @@
         <editable>true</editable>
         <field>LLC_BI__Loan_Assumptions__c.LLC_BI__lookupKey__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan_Collateral2__c.Abundance_of_Caution__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -64556,6 +64686,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>LLC_BI__Loan__c.Cash_Out_Refinance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>LLC_BI__Loan__c.Full_Product_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -64563,6 +64698,16 @@
         <editable>true</editable>
         <field>LLC_BI__Loan__c.Funding_Date__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.Good_Faith_Deduction_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.Good_Faith_Deposit__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -66140,6 +66285,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.Outstanding_Good_Faith_Deposit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Loan__c.Post_Closing_Review_Comments__c</field>
         <readable>true</readable>
@@ -66182,6 +66332,61 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Loan__c.Tertiary_Source_of_Repayment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.UBLOSDays_Since_Booking__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Doc_Prep_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Doc_Prep_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Hold_Reason_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Hold_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Loan_Booking_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Market__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Product_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_Revolving_Indicator__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Loan__c.UBLOS_SBA_504__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -67961,6 +68166,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>LLC_BI__Pricing_Payment_Component__c.UBLOS_Payment_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>LLC_BI__Pricing_Payment_Component__c.cm_Loan__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -68971,6 +69181,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LLC_BI__Product_Feature__c.PRODUCT_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LLC_BI__Product_Funding_Method_Type__c.LLC_BI__Failure_Message__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -69417,6 +69632,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Product_Package__c.LLC_BI__lookupKey__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Product_Package__c.UBLOSHousehold_Direct_Exposure__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -70343,6 +70563,11 @@
         <editable>true</editable>
         <field>LLC_BI__Profitability__c.LLC_BI__lookupKey__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Rate__c.Custom_Code__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -73095,6 +73320,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Template_Records__c.Checkbox_5__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Template_Records__c.LLC_BI__Basis_Source__c</field>
         <readable>true</readable>
@@ -73223,6 +73453,11 @@
         <editable>true</editable>
         <field>LLC_BI__Template_Records__c.LLC_BI__lookupKey__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Template_Records__c.Picklist_5__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -77622,6 +77857,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.Officer_Codes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.UBLOS_Branch__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.UBLOS_Market__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.UBLOS_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -88661,6 +88911,41 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Financial_Assets</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Insurance</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Marketable_Securities</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Miscellaneous_Assignment</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Real_Estate</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_Titled</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.UB_UCC</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>LLC_BI__Entity_Compliance__c.LLC_BI__HMDA_Effective_2017</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -88931,6 +89216,10 @@
     <tabVisibilities>
         <tab>LLC_BI__Checklist__c</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__ClosingChecklist__c</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>LLC_BI__Collateral_Type__c</tab>
@@ -89684,6 +89973,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

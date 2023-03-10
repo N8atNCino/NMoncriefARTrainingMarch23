@@ -50,6 +50,16 @@
         <unique>false</unique>
     </fields>
     <label>Period</label>
+    <listViews>
+        <fullName>All2</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>LLC_BI__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
     <pluralLabel>Periods</pluralLabel>
     <visibility>Public</visibility>
 </CustomObject>

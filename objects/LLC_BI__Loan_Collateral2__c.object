@@ -1869,6 +1869,16 @@ Object: Collateral Pledged</description>
         <label>UI Loan Collateral Pledged</label>
     </fieldSets>
     <fields>
+        <fullName>Abundance_of_Caution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicate if collateral was captured under an &quot;abundance of caution&quot;</description>
+        <externalId>false</externalId>
+        <label>Abundance of Caution</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>LLC_BI__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>

@@ -214,6 +214,16 @@
         <label>Rates</label>
     </fieldSets>
     <fields>
+        <fullName>Custom_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>LLC_BI__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>

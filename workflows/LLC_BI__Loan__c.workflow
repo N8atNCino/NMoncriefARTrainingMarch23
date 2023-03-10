@@ -259,46 +259,12 @@ TEXT(MIN(ROUND(MOD(LLC_BI__Amount__c, 1), 2) * 100, 99))
         <fullName>Loan_Default_App</fullName>
         <field>LLC_BI__Default_App__c</field>
         <formula>IF(
-AND(
-ISPICKVAL(LLC_BI__Product_Line__c, &quot;Commercial&quot;),
-OR(
-ISPICKVAL(LLC_BI__Stage__c, &quot;Qualification&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Proposal&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Credit Underwriting&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Final Review&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Approval / Loan Committee&quot;)
-)
-),
-&apos;m-loan.dashboard-loan&apos;,
+ISPICKVAL(LLC_BI__Product_Line__c, &quot;Commercial Loan&quot;),
+&apos;ub-loan.ub-loan-loan-dashboard&apos;,
 IF(
-AND(
-ISPICKVAL(LLC_BI__Product_Line__c, &quot;Commercial&quot;),
-OR(
-ISPICKVAL(LLC_BI__Stage__c, &quot;Processing&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Doc Prep&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Credit Underwriting&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Closing&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Boarding&quot;)
-)
-),
-&apos;m-loan-post-approval.post-approval-loan-dashboard&apos;,
-IF(
-AND(
-ISPICKVAL(LLC_BI__Product_Line__c, &quot;Commercial&quot;),
-OR(
-ISPICKVAL(LLC_BI__Stage__c, &quot;Booked&quot;),
-ISPICKVAL(LLC_BI__Stage__c, &quot;Complete&quot;)
-)
-),
-&apos;m-loan-booked.booked-loan-dashboard&apos;,
-IF(
-ISPICKVAL(LLC_BI__Product_Line__c, &quot;Consumer&quot;),
+ISPICKVAL(LLC_BI__Product_Line__c, &quot;Consumer Loan&quot;),
 &apos;m-retail.m-retail-loan-details&apos;,
-&apos;m-loan.dashboard-loan&apos;
-)
-)
-)
-)</formula>
+&apos;m-commercial.dashboard-loan&apos;))</formula>
         <name>Loan - Default App</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
@@ -461,7 +427,7 @@ ISPICKVAL(LLC_BI__Product_Line__c, &quot;Consumer&quot;),
             <name>Assign_Commercial_Record_Type</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>LLC_BI__Loan__c.LLC_BI__Product_Line__c</field>
             <operation>equals</operation>

@@ -220,6 +220,15 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <fields>
+        <fullName>UBLOS_Standard_Covenant_Definition__c</fullName>
+        <externalId>false</externalId>
+        <label>Standard Covenant Definition</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
     <label>Covenant Type</label>
     <listViews>
         <fullName>LLC_BI__All</fullName>

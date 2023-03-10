@@ -2493,6 +2493,17 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <fields>
+        <fullName>PRODUCT_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>PRODUCT ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
     <label>Product Feature</label>
     <nameField>
         <displayFormat>Product_Feature-{00000}</displayFormat>

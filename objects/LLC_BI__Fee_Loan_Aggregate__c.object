@@ -395,6 +395,16 @@
         <label>Pricing Option Fee Aggregate Summary</label>
     </fieldSets>
     <fields>
+        <fullName>Good_Faith_Deposit__c</fullName>
+        <externalId>false</externalId>
+        <label>Good Faith Deposit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>LLC_BI__Additional_Charges__c</fullName>
         <deprecated>false</deprecated>
         <description>The system automatically populates this optional currency field to indicate the aggregate total of all additional fees not associated with the 12 Other fees listed as line items. By default, this field is blank.</description>

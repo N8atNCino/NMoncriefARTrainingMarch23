@@ -329,6 +329,15 @@
         <label>Fees Template</label>
     </fieldSets>
     <fields>
+        <fullName>Checkbox_5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Can this Fee be assessed to the same Loan multiple times?</description>
+        <externalId>false</externalId>
+        <label>Checkbox 5</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>LLC_BI__Basis_Source__c</fullName>
         <deprecated>false</deprecated>
         <description>Users populate this optional picklist with the basis for percentage fees, such as loan amount or another loan field. This field is used when Calculation Type is equal to percent. By default, it is blank.</description>
@@ -835,6 +844,30 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <fields>
+        <fullName>Picklist_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist 5</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commitment Level</fullName>
+                    <default>false</default>
+                    <label>Commitment Level</label>
+                </value>
+                <value>
+                    <fullName>Note Level</fullName>
+                    <default>false</default>
+                    <label>Note Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Template Records</label>
     <listViews>
         <fullName>LLC_BI__All</fullName>
@@ -1027,6 +1060,17 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_5__c</picklist>
+            <values>
+                <fullName>Commitment Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Note Level</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>LLC_BI__Starting_Record_Type</fullName>
@@ -1156,6 +1200,17 @@
             </values>
             <values>
                 <fullName>Unlimited Tolerance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_5__c</picklist>
+            <values>
+                <fullName>Commitment Level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Note Level</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

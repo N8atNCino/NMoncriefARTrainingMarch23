@@ -14302,6 +14302,7 @@
         <members>Account.Tier</members>
         <members>Account.Total_Secured_Exposure__c</members>
         <members>Account.Type</members>
+        <members>Account.UBLOSHousehold_Direct_Exposure__c</members>
         <members>Account.Website</members>
         <members>Account.cm_Email_Address__c</members>
         <members>Account.cm_Industry_Code_Lookup__c</members>
@@ -16112,6 +16113,11 @@
         <members>LLC_BI__Collateral_Valuation__c.LLC_BI__Valuation_Description__c</members>
         <members>LLC_BI__Collateral_Valuation__c.LLC_BI__Valuation_Details__c</members>
         <members>LLC_BI__Collateral_Valuation__c.LLC_BI__Value__c</members>
+        <members>LLC_BI__Collateral__c.Appraisal_Date__c</members>
+        <members>LLC_BI__Collateral__c.Appraisal_Type__c</members>
+        <members>LLC_BI__Collateral__c.Assignment_of_Leases__c</members>
+        <members>LLC_BI__Collateral__c.Brokerage_Trust_Account__c</members>
+        <members>LLC_BI__Collateral__c.Certificate_Number__c</members>
         <members>LLC_BI__Collateral__c.Integration_Source__c</members>
         <members>LLC_BI__Collateral__c.LLC_BI__APN__c</members>
         <members>LLC_BI__Collateral__c.LLC_BI__Advance_Rate__c</members>
@@ -16295,7 +16301,18 @@
         <members>LLC_BI__Collateral__c.LLC_BI__Zip_Code__c</members>
         <members>LLC_BI__Collateral__c.LLC_BI__isFutureContext__c</members>
         <members>LLC_BI__Collateral__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Collateral__c.Land_Value__c</members>
+        <members>LLC_BI__Collateral__c.Loan_Number__c</members>
+        <members>LLC_BI__Collateral__c.Margin_Percent__c</members>
         <members>LLC_BI__Collateral__c.Migration_ID__c</members>
+        <members>LLC_BI__Collateral__c.Occupancy_Code__c</members>
+        <members>LLC_BI__Collateral__c.Stock_Issued_By__c</members>
+        <members>LLC_BI__Collateral__c.Stock_Type__c</members>
+        <members>LLC_BI__Collateral__c.Structure_Value_1__c</members>
+        <members>LLC_BI__Collateral__c.Structure_Value_2__c</members>
+        <members>LLC_BI__Collateral__c.Structure_Value_3__c</members>
+        <members>LLC_BI__Collateral__c.Structure_Value_4__c</members>
+        <members>LLC_BI__Collateral__c.Structure_Value_5__c</members>
         <members>LLC_BI__Collateral__c.cm_Abundance_of_Caution__c</members>
         <members>LLC_BI__Collateral__c.cm_Condo_Project_Name_if_master_policy__c</members>
         <members>LLC_BI__Collateral__c.cm_In_Flood_Zone__c</members>
@@ -16382,6 +16399,7 @@
         <members>LLC_BI__Covenant2__c.LLC_BI__lookupKey__c</members>
         <members>LLC_BI__Covenant2__c.Migration_ID__c</members>
         <members>LLC_BI__Covenant2__c.Relationship__c</members>
+        <members>LLC_BI__Covenant2__c.UBLOS_Covenant_Definition__c</members>
         <members>LLC_BI__Covenant2__c.isTest__c</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Approval_Date__c</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Approved_By__c</members>
@@ -16419,6 +16437,7 @@
         <members>LLC_BI__Covenant_Type__c.LLC_BI__Category__c</members>
         <members>LLC_BI__Covenant_Type__c.LLC_BI__Is_Financial_Indicator__c</members>
         <members>LLC_BI__Covenant_Type__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Covenant_Type__c.UBLOS_Standard_Covenant_Definition__c</members>
         <members>LLC_BI__Covenant__c.LLC_BI__Account__c</members>
         <members>LLC_BI__Covenant__c.LLC_BI__Active__c</members>
         <members>LLC_BI__Covenant__c.LLC_BI__Contact__c</members>
@@ -16937,6 +16956,7 @@
         <members>LLC_BI__FSC_Synchronization__e.LLC_BI__Action__c</members>
         <members>LLC_BI__FSC_Synchronization__e.LLC_BI__Parameters__c</members>
         <members>LLC_BI__FSC_Synchronization__e.LLC_BI__Process__c</members>
+        <members>LLC_BI__Fee_Loan_Aggregate__c.Good_Faith_Deposit__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Additional_Charges__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Aggregate_Adjustment__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Closing_Costs_Paid_Before_Closing__c</members>
@@ -16982,6 +17002,8 @@
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Total_Standard_Fee_Amount__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Total_Taxes_and_Other_Government_Fees__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Fee__c.Commitment_Note_Level__c</members>
+        <members>LLC_BI__Fee__c.Deduct_from_Good_Faith_Deposit__c</members>
         <members>LLC_BI__Fee__c.Integration_Source__c</members>
         <members>LLC_BI__Fee__c.LLC_BI__Add_To_Finance_Charge__c</members>
         <members>LLC_BI__Fee__c.LLC_BI__Add_To_MAPR__c</members>
@@ -17273,6 +17295,9 @@
         <members>LLC_BI__LLC_LoanDocument__c.NDOC__isTrash__c</members>
         <members>LLC_BI__LLC_LoanDocument__c.NDOC__neededByStage__c</members>
         <members>LLC_BI__LLC_LoanDocument__c.NDOC__year__c</members>
+        <members>LLC_BI__Legal_Entities__c.Burn_Down_Amount__c</members>
+        <members>LLC_BI__Legal_Entities__c.Burn_Down_Percentage__c</members>
+        <members>LLC_BI__Legal_Entities__c.Burn_Down_Type__c</members>
         <members>LLC_BI__Legal_Entities__c.Integration_Source__c</members>
         <members>LLC_BI__Legal_Entities__c.LLC_BI__Account__c</members>
         <members>LLC_BI__Legal_Entities__c.LLC_BI__Address__c</members>
@@ -17366,6 +17391,7 @@
         <members>LLC_BI__Loan_Assumptions__c.LLC_BI__Requested_Loan_Amount__c</members>
         <members>LLC_BI__Loan_Assumptions__c.LLC_BI__Selected_Period__c</members>
         <members>LLC_BI__Loan_Assumptions__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Loan_Collateral2__c.Abundance_of_Caution__c</members>
         <members>LLC_BI__Loan_Collateral2__c.LLC_BI__Active__c</members>
         <members>LLC_BI__Loan_Collateral2__c.LLC_BI__Advance_Rate_Override__c</members>
         <members>LLC_BI__Loan_Collateral2__c.LLC_BI__Advance_Rate__c</members>
@@ -17650,8 +17676,11 @@
         <members>LLC_BI__Loan_Modification__c.LLC_BI__Owner__c</members>
         <members>LLC_BI__Loan_Modification__c.LLC_BI__Status__c</members>
         <members>LLC_BI__Loan__c.Application_Date__c</members>
+        <members>LLC_BI__Loan__c.Cash_Out_Refinance__c</members>
         <members>LLC_BI__Loan__c.Full_Product_Name__c</members>
         <members>LLC_BI__Loan__c.Funding_Date__c</members>
+        <members>LLC_BI__Loan__c.Good_Faith_Deduction_Amount__c</members>
+        <members>LLC_BI__Loan__c.Good_Faith_Deposit__c</members>
         <members>LLC_BI__Loan__c.HVCRE_Reportable__c</members>
         <members>LLC_BI__Loan__c.Integration_Source__c</members>
         <members>LLC_BI__Loan__c.Is_this_a_Test__c</members>
@@ -17967,6 +17996,7 @@
         <members>LLC_BI__Loan__c.LLC_BI__nCino_Loan_Number__c</members>
         <members>LLC_BI__Loan__c.Legal_Firm_Customer__c</members>
         <members>LLC_BI__Loan__c.Migration_ID__c</members>
+        <members>LLC_BI__Loan__c.Outstanding_Good_Faith_Deposit__c</members>
         <members>LLC_BI__Loan__c.Post_Closing_Review_Comments__c</members>
         <members>LLC_BI__Loan__c.Post_Closing_Review_Completed_By__c</members>
         <members>LLC_BI__Loan__c.Post_Closing_Review_Completed_Date__c</members>
@@ -17976,6 +18006,17 @@
         <members>LLC_BI__Loan__c.Secondary_Source_of_Repayment__c</members>
         <members>LLC_BI__Loan__c.Submitted_for_Approval_Date__c</members>
         <members>LLC_BI__Loan__c.Tertiary_Source_of_Repayment__c</members>
+        <members>LLC_BI__Loan__c.UBLOSDays_Since_Booking__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Doc_Prep_Status__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Doc_Prep_Type__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Hold_Reason_Description__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Hold_Reason__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Loan_Booking_Status__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Market__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Product_Code__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Region__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_Revolving_Indicator__c</members>
+        <members>LLC_BI__Loan__c.UBLOS_SBA_504__c</members>
         <members>LLC_BI__Loan__c.cm_Available_Amount__c</members>
         <members>LLC_BI__Loan__c.cm_Closer__c</members>
         <members>LLC_BI__Loan__c.cm_Completed_Application__c</members>
@@ -18358,6 +18399,7 @@
         <members>LLC_BI__Pricing_Payment_Component__c.LLC_BI__Skip_Months__c</members>
         <members>LLC_BI__Pricing_Payment_Component__c.LLC_BI__Type__c</members>
         <members>LLC_BI__Pricing_Payment_Component__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Pricing_Payment_Component__c.UBLOS_Payment_Type__c</members>
         <members>LLC_BI__Pricing_Payment_Component__c.cm_Loan__c</members>
         <members>LLC_BI__Pricing_Rate_Component__c.LLC_BI__All_In_Rate__c</members>
         <members>LLC_BI__Pricing_Rate_Component__c.LLC_BI__Applied_Loan_Percentage__c</members>
@@ -18570,6 +18612,7 @@
         <members>LLC_BI__Product_Feature__c.LLC_BI__Use_Teaser_Rate__c</members>
         <members>LLC_BI__Product_Feature__c.LLC_BI__Used_CreditConversionFactor__c</members>
         <members>LLC_BI__Product_Feature__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Product_Feature__c.PRODUCT_ID__c</members>
         <members>LLC_BI__Product_Funding_Method_Type__c.LLC_BI__Failure_Message__c</members>
         <members>LLC_BI__Product_Funding_Method_Type__c.LLC_BI__Funding_Method_Type__c</members>
         <members>LLC_BI__Product_Funding_Method_Type__c.LLC_BI__Lookup_Key__c</members>
@@ -18663,6 +18706,7 @@
         <members>LLC_BI__Product_Package__c.LLC_BI__Treasury_Annual_Operating_Cost__c</members>
         <members>LLC_BI__Product_Package__c.LLC_BI__Unused__c</members>
         <members>LLC_BI__Product_Package__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Product_Package__c.UBLOSHousehold_Direct_Exposure__c</members>
         <members>LLC_BI__Product_Package__c.X1st_Approver__c</members>
         <members>LLC_BI__Product_Package__c.X2nd_Approver__c</members>
         <members>LLC_BI__Product_Package__c.cm_Approval_Committee__c</members>
@@ -18866,6 +18910,7 @@
         <members>LLC_BI__Projection_Bundle_Junction__c.LLC_BI__Bundle__c</members>
         <members>LLC_BI__Projection_Bundle_Junction__c.LLC_BI__Projection_Template__c</members>
         <members>LLC_BI__Projection_Bundle_Junction__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Rate__c.Custom_Code__c</members>
         <members>LLC_BI__Rate__c.LLC_BI__Active__c</members>
         <members>LLC_BI__Rate__c.LLC_BI__Current_Value__c</members>
         <members>LLC_BI__Rate__c.LLC_BI__Description__c</members>
@@ -19542,6 +19587,7 @@
         <members>LLC_BI__Team_Role__c.LLC_BI__Description__c</members>
         <members>LLC_BI__Team__c.LLC_BI__Description__c</members>
         <members>LLC_BI__Team__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Template_Records__c.Checkbox_5__c</members>
         <members>LLC_BI__Template_Records__c.LLC_BI__Basis_Source__c</members>
         <members>LLC_BI__Template_Records__c.LLC_BI__Category__c</members>
         <members>LLC_BI__Template_Records__c.LLC_BI__Checkbox_1__c</members>
@@ -19568,6 +19614,7 @@
         <members>LLC_BI__Template_Records__c.LLC_BI__Text_Field_1__c</members>
         <members>LLC_BI__Template_Records__c.LLC_BI__Text_Field_2__c</members>
         <members>LLC_BI__Template_Records__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Template_Records__c.Picklist_5__c</members>
         <members>LLC_BI__Tenant_Information__c.LLC_BI__Annual_Income__c</members>
         <members>LLC_BI__Tenant_Information__c.LLC_BI__Description__c</members>
         <members>LLC_BI__Tenant_Information__c.LLC_BI__Lease_End__c</members>
@@ -20790,6 +20837,9 @@
         <members>User.StayInTouchSubject</members>
         <members>User.TimeZoneSidKey</members>
         <members>User.Title</members>
+        <members>User.UBLOS_Branch__c</members>
+        <members>User.UBLOS_Market__c</members>
+        <members>User.UBLOS_Region__c</members>
         <members>User.UserRoleId</members>
         <members>User.UserSubtype</members>
         <members>User.Username</members>
@@ -21827,6 +21877,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Owner_Occupied</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>AccountBrand</members>
         <members>AccountContactRole</members>
@@ -22794,6 +22848,7 @@
         <members>LLC_BI__CFG_ConfigKey__c</members>
         <members>LLC_BI__CFG_ConfigValue__c</members>
         <members>LLC_BI__Checklist__c</members>
+        <members>LLC_BI__ClosingChecklist__c</members>
         <members>LLC_BI__Collateral_Type__c</members>
         <members>LLC_BI__Collateral__c</members>
         <members>LLC_BI__Connection_Role__c</members>
@@ -22993,6 +23048,8 @@
         <members>unfiled$public/CommunityLockoutEmailTemplate</members>
         <members>unfiled$public/CommunityVerificationEmailTemplate</members>
         <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/Covenant_Compliance_Waiver_Request</members>
+        <members>unfiled$public/Covenant_Mgmt_Waiver_Request</members>
         <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
         <members>unfiled$public/SAMPLE_Contact_Follow_Up</members>
         <members>unfiled$public/SAMPLE_Customer_Portal_New_User_Login_Information</members>
@@ -23485,6 +23542,7 @@
         <members>LLC_BI__Loan__c.RequiredLoanFieldsToCreateRateOrPayment</members>
         <members>LLC_BI__Loan__c.Standard_Product_Package_Credit_Memo</members>
         <members>LLC_BI__Loan__c.Standard_Product_Package_Credit_Memo_Exp</members>
+        <members>LLC_BI__Loan__c.UBLOS_Loan_Creation_Custom_Fields</members>
         <members>LLC_BI__Loan__c.UI_Approval_Fields</members>
         <members>LLC_BI__Loan__c.UI_Attorney_Info</members>
         <members>LLC_BI__Loan__c.UI_Compliance_Information</members>
@@ -24895,6 +24953,7 @@
         <members>LLC_BI__Loan__c.Stage_Closing</members>
         <members>LLC_BI__Loan__c.Stage_Complete</members>
         <members>LLC_BI__Loan__c.Stage_Credit_Underwriting</members>
+        <members>LLC_BI__Loan__c.Stage_Decisioning</members>
         <members>LLC_BI__Loan__c.Stage_Doc_Prep</members>
         <members>LLC_BI__Loan__c.Stage_Final_Review</members>
         <members>LLC_BI__Loan__c.Stage_Processing</members>
@@ -24906,6 +24965,7 @@
         <members>LLC_BI__Opportunity_Product__c.LLC_BI__All</members>
         <members>LLC_BI__Ownership_Structure_Role__c.LLC_BI__All</members>
         <members>LLC_BI__Ownership_Structure_Type__c.LLC_BI__All</members>
+        <members>LLC_BI__Period__mdt.All2</members>
         <members>LLC_BI__Policy_Exception_Template__c.All1</members>
         <members>LLC_BI__Policy_Exception_Template__c.LLC_BI__All</members>
         <members>LLC_BI__Pricing_Matrix__c.LLC_BI__All</members>
@@ -25324,6 +25384,13 @@
         <members>LLC_BI__Collateral__c.LLC_BI__Titled_Trailer_Other</members>
         <members>LLC_BI__Collateral__c.LLC_BI__Titled_Vessel</members>
         <members>LLC_BI__Collateral__c.LLC_BI__UCC</members>
+        <members>LLC_BI__Collateral__c.UB_Financial_Assets</members>
+        <members>LLC_BI__Collateral__c.UB_Insurance</members>
+        <members>LLC_BI__Collateral__c.UB_Marketable_Securities</members>
+        <members>LLC_BI__Collateral__c.UB_Miscellaneous_Assignment</members>
+        <members>LLC_BI__Collateral__c.UB_Real_Estate</members>
+        <members>LLC_BI__Collateral__c.UB_Titled</members>
+        <members>LLC_BI__Collateral__c.UB_UCC</members>
         <members>LLC_BI__Entity_Compliance__c.LLC_BI__HMDA_Effective_2017</members>
         <members>LLC_BI__Entity_Compliance__c.LLC_BI__HMDA_Effective_2018</members>
         <members>LLC_BI__Fee__c.LLC_BI__Adjustments</members>
@@ -27015,8 +27082,17 @@
         <members>LLC_BI__Collateral__c.LLC_BI__Titled_Trailer_Other</members>
         <members>LLC_BI__Collateral__c.LLC_BI__Titled_Vessel</members>
         <members>LLC_BI__Collateral__c.LLC_BI__UCC</members>
+        <members>LLC_BI__Collateral__c.UB_Financial_Assets</members>
+        <members>LLC_BI__Collateral__c.UB_Insurance</members>
+        <members>LLC_BI__Collateral__c.UB_Marketable_Securities</members>
+        <members>LLC_BI__Collateral__c.UB_Miscellaneous_Assignment</members>
+        <members>LLC_BI__Collateral__c.UB_Real_Estate</members>
+        <members>LLC_BI__Collateral__c.UB_Titled</members>
+        <members>LLC_BI__Collateral__c.UB_UCC</members>
         <members>LLC_BI__Connection__c.Set_Ownership_Percentage_to_100</members>
+        <members>LLC_BI__Covenant2__c.Mark_Active_as_FALSE</members>
         <members>LLC_BI__Covenant2__c.PMB_Populate_FI_Effective_Date</members>
+        <members>LLC_BI__Covenant2__c.UBLOSUpdate_Cov_Definition</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Covenant2_Update_Last_Evaluation_Status</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Covenant_Update_Last_Evaluation_Status</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Set_Covenant_Compliance_Exception_Date</members>
@@ -27029,6 +27105,8 @@
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Update_Last_Reviewed_Date</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Update_Next_Eval_Date_From_Due_Date</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Update_Next_Evaluation_Date</members>
+        <members>LLC_BI__Covenant_Compliance2__c.UBLOSUpdate_Status_to_Exception</members>
+        <members>LLC_BI__Covenant_Compliance2__c.UBLOSUpdate_Status_to_Waived</members>
         <members>LLC_BI__Covenant_Compliance2__c.Update_Covenant_Compliance_Status</members>
         <members>LLC_BI__Covenant_Compliance__c.Covenant_Update_Last_Evaluation_Date</members>
         <members>LLC_BI__Covenant_Compliance__c.Covenant_Update_Last_Evaluation_Status</members>
@@ -27182,8 +27260,16 @@
         <members>LLC_BI__Collateral__c.LLC_BI__UCC2</members>
         <members>LLC_BI__Collateral__c.LLC_BI__Update Collateral Group Record Type</members>
         <members>LLC_BI__Collateral__c.Titled Trailer%2FOther3</members>
+        <members>LLC_BI__Collateral__c.UB_Financial Assets</members>
+        <members>LLC_BI__Collateral__c.UB_Insurance</members>
+        <members>LLC_BI__Collateral__c.UB_Marketable Securities</members>
+        <members>LLC_BI__Collateral__c.UB_Miscellaneous Assignment</members>
+        <members>LLC_BI__Collateral__c.UB_Real Estate</members>
+        <members>LLC_BI__Collateral__c.UB_Titled</members>
+        <members>LLC_BI__Collateral__c.UB_UCC</members>
         <members>LLC_BI__Connection__c.Set Household Ownership %25 to 100</members>
         <members>LLC_BI__Covenant2__c.PMB_Populate FI Effective Date</members>
+        <members>LLC_BI__Covenant2__c.Update standard definition</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Covenant Compliance Set Last Evaluation Status</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Covenant Compliance Set Next Evaluation Date</members>
         <members>LLC_BI__Covenant_Compliance2__c.LLC_BI__Covenant Compliance Update Last Evaluation Date</members>

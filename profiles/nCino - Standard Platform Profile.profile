@@ -49831,6 +49831,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Bureau_Credit_Master_Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Business_Mailing_Address_Same_as_Physica__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -53025,6 +53030,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Credit_History_Setting__mdt.Default_United_Master_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -55362,6 +55372,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Adverse_Action__c.LLC_BI__Withdraw_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Adverse_Action__c.UBLOSCredit_Report_Agency_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -58961,6 +58976,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Adding_Guarantors__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Approval_Extension__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Approver2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Approver3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Approver4__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LLC_BI__Credit_Memo_Modifcation__c.Borrower_Added__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -58977,6 +59017,91 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Credit_Memo_Modifcation__c.CLA_Budget_Line_Item_Change__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Borrowers__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Change_in_FS_quality_to_higher_quality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Facility_Type_Term_to_Rev__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Repayment_Term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Changes_in_Collateral__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Changes_in_FS_Quality_to_lower_quality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Changes_to_Collateral__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_Interest_Rate_up_to_25_bps__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_Loan_Origination_Fee__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_interest_rate_over_25_bps__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Decreased_Loan_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Extending_Maturity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Higher_LoantoValue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Increase_in_Interest_Rate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Increase_in_Loan_Fee__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Increased_Loan_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Increasing_Guarantor_Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -59106,12 +59231,102 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Less_Restrictive_Covenants__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LLC_BI__Credit_Memo_Modifcation__c.Loan_Information_Change__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>LLC_BI__Credit_Memo_Modifcation__c.Loan_Officer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Longer_Amortization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Lower_LoanToValue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.More_restrictive_covenantsconditions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Other_Material_Changes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Policy_Exceptions_Reassessed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Reducing_Guarantor_Requirement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Removing_Guarantors__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Risk_Grade_Change__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Shorter_Amortization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Shorter_Maturity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Spelling_Changes_to_Entity_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Sublimit_under_existing_LOC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Timing_of_the_receipt_of_FS150_days__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.UBLOSFinal_Approval_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Waiving_Construction_Req_on_loans_1MM__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Credit_Memo_Modifcation__c.Within_AutoApproval_Criteria__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -61475,6 +61690,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Fee__c.Add_Fee_to_Principal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Fee__c.Annual_Requirement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>LLC_BI__Fee__c.Commitment_Note_Level__c</field>
         <readable>false</readable>
@@ -61483,6 +61708,11 @@
         <editable>false</editable>
         <field>LLC_BI__Fee__c.Deduct_from_Good_Faith_Deposit__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Fee__c.Fee_Description__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -63073,6 +63303,11 @@
         <editable>true</editable>
         <field>LLC_BI__Legal_Entities__c.Migration_ID__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Legal_Entities__c.UBLOSReg_O__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -66313,6 +66548,11 @@
         <editable>true</editable>
         <field>LLC_BI__Loan__c.Reg_W_Reportable__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Loan__c.Risk_Rating_2__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -82114,6 +82354,10 @@
         <field>nFUSE__Transaction_Log__c.nFUSE__Vendor_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Check_Reg_O_on_Loan</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Vendor%29</layout>
         <recordType>Account.Vendor</recordType>
@@ -82255,6 +82499,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Credit_History_Setting__mdt-Credit History Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
@@ -88789,6 +89036,10 @@
     <pageAccesses>
         <apexPage>nFUSE__ncTreeGridHtml</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>renderHtmlAsPdf</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>tempPageForPackageDeletion</apexPage>

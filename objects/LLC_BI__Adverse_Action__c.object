@@ -931,6 +931,21 @@ flag: 1 = update</description>
         </valueSet>
     </fields>
     <fields>
+        <fullName>UBLOSCredit_Report_Agency_Used__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+OR(
+TEXT( LLC_BI__Credit_Provider__c) = &apos;Equifax&apos;,
+TEXT( LLC_BI__Credit_Provider__c) = &apos;Experian&apos;,
+TEXT( LLC_BI__Credit_Provider__c) = &apos;TransUnion&apos;,
+TEXT( LLC_BI__Credit_Provider__c) = &apos;Innovis&apos;),
+TRUE,
+FALSE)</formula>
+        <label>Credit Report Agency Used</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>cm_AA_Type__c</fullName>
         <description>Counter Offer or Declination?</description>
         <externalId>false</externalId>

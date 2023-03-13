@@ -1,0 +1,14 @@
+<apex:page controller="ublos_RenderHtmlAsPdfController"
+		   applyHtmlTag="false" showHeader="false" cache="true" readOnly="true" renderAs="pdf">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <head> 
+            <title>PayNet</title> 
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+            <link href="Common/Styles/PayNet2019.css" rel="stylesheet" type="text/css" /> 
+            <style type="text/css"> body { margin: 15px 10px; } TABLE { padding-top: 0px; margin-top: 0px; border-collapse: collapse; } TD { font-size: 9pt; } small { font-size: 0.66em; } sup { font-size: 13px; } table#container { width: 80%; } .spanSendComment { font-size: xx-small; font-family: arial; } .sec { margin-bottom: 4px; font-size: 12pt; font-weight: bold; color: #ffffff; background:  #009639; padding: 2px; } .title { color: black; font-size: 24pt; font-family: "Barlow Condensed", sans-serif; color: #76bd1d !important; text-transform: uppercase; } .renw { color: #999999; font-style: italic; } .dates { text-decoration: underline; } .borderRow { border-top: 3px solid #000000; } .note { color: gray; font-size: 8pt; } .note2 { color: black; font-size: 12pt; } .stackedhead { padding-bottom: 4px; margin-bottom: 4px; border-bottom: 1px dotted #999999; } .blankR, .blankRB, .blankB, .blank { border: none; } .labelTRBL, .labelTRB, .labelRB, .labelRBL, .labelB, .label, .labelBNKR { border: #000000 1px solid; font-size: 10pt; background: #dddddd; color: black; } .dataTRBL, .dataTRB, .dataRB, .dataRBL, .dataB, .data, .dataBNKR { border: #000000 1px solid; font-size: 10pt; color: black; } .creTRBL, .creTRB, .creRB, .creRBL, .creB { border: #000000 1px solid; font-size: 10pt; color: black; } .labelBNKR, .dataBNKR { white-space: nowrap; } TR .textwrap { white-space: normal; } .noBNKR { background: #ffffcc; padding: 6px; border: 1px solid black; font-size: 10pt; } .noSJ { background: #ffffcc; padding: 6px; border: 1px solid black; font-size: 10pt; } </style> 
+        </head>
+        <body>
+            <apex:outputText value="{!htmlText}" escape="false"/>
+        </body>
+    </html>
+</apex:page>

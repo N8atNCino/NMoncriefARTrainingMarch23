@@ -13766,6 +13766,7 @@
         <members>nFUSE__Verifications</members>
         <members>nFUSE__VerificationsChecklist</members>
         <members>nFUSE__ncTreeGridHtml</members>
+        <members>renderHtmlAsPdf</members>
         <members>tempPageForPackageDeletion</members>
         <name>ApexPage</name>
     </types>
@@ -14018,6 +14019,7 @@
         <members>LLC_BI__Credit_Memo_Modifcation__c.MAP100_Short_Term_Extension</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.MAP200_Change_Memo_AP_Not_Required</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.MAP200_Change_Memo_AP_Required</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.UBLOSChange_Memo_Approval_Process</members>
         <members>LLC_BI__Loan__c.LAP100_Sample_Loan_Approval_Process</members>
         <members>LLC_BI__Loan__c.LAP100_nCino_Gold_Standard_AP</members>
         <members>LLC_BI__Loan__c.PP_Two_Step_Approval_Process</members>
@@ -14138,6 +14140,7 @@
         <members>Account.AnnualRevenue</members>
         <members>Account.BillingAddress</members>
         <members>Account.Billing_Address__c</members>
+        <members>Account.Bureau_Credit_Master_Score__c</members>
         <members>Account.Business_Mailing_Address_Same_as_Physica__c</members>
         <members>Account.ChannelProgramLevelName</members>
         <members>Account.ChannelProgramName</members>
@@ -15059,6 +15062,7 @@
         <members>ContractLineItem.Subtotal</members>
         <members>ContractLineItem.TotalPrice</members>
         <members>ContractLineItem.UnitPrice</members>
+        <members>Credit_History_Setting__mdt.Default_United_Master_Score__c</members>
         <members>Customer.CustomerStatusType</members>
         <members>Customer.Name</members>
         <members>Customer.PartyId</members>
@@ -15692,6 +15696,7 @@
         <members>LLC_BI__Adverse_Action__c.LLC_BI__Loan_Flag__c</members>
         <members>LLC_BI__Adverse_Action__c.LLC_BI__Loan__c</members>
         <members>LLC_BI__Adverse_Action__c.LLC_BI__Withdraw_Reason__c</members>
+        <members>LLC_BI__Adverse_Action__c.UBLOSCredit_Report_Agency_Used__c</members>
         <members>LLC_BI__Adverse_Action__c.cm_AA_Type__c</members>
         <members>LLC_BI__Adverse_Action__c.cm_Counter_Offer_Due_Date__c</members>
         <members>LLC_BI__Adverse_Action__c.cm_Counter_Offer_Status__c</members>
@@ -16455,10 +16460,32 @@
         <members>LLC_BI__Covenant__c.LLC_BI__Loan__c</members>
         <members>LLC_BI__Covenant__c.LLC_BI__Next_Evaluation_Date__c</members>
         <members>LLC_BI__Covenant__c.LLC_BI__Notes__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Adding_Guarantors__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Approval_Extension__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Approver2__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Approver3__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Approver4__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.Borrower_Added__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.Borrower_Removed__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.CLA_Budget_Amount_Change__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.CLA_Budget_Line_Item_Change__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Borrowers__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Change_in_FS_quality_to_higher_quality__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Facility_Type_Term_to_Rev__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Change_in_Repayment_Term__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Changes_in_Collateral__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Changes_in_FS_Quality_to_lower_quality__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Changes_to_Collateral__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_Interest_Rate_up_to_25_bps__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_Loan_Origination_Fee__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Decrease_in_interest_rate_over_25_bps__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Decreased_Loan_Amount__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Extending_Maturity__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Higher_LoantoValue__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Increase_in_Interest_Rate__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Increase_in_Loan_Fee__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Increased_Loan_Amount__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Increasing_Guarantor_Level__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Amount_Change__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Approval_Required__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Approval_Status__c</members>
@@ -16485,8 +16512,26 @@
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Use_of_Proceeds_Change__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__User_Initiated__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Less_Restrictive_Covenants__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.Loan_Information_Change__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.Loan_Officer__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Longer_Amortization__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Lower_LoanToValue__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.More_restrictive_covenantsconditions__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Other_Material_Changes__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Policy_Exceptions_Reassessed__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Reducing_Guarantor_Requirement__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Removing_Guarantors__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Risk_Grade_Change__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Shorter_Amortization__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Shorter_Maturity__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Spelling_Changes_to_Entity_Name__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Sublimit_under_existing_LOC__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Timing_of_the_receipt_of_FS150_days__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.UBLOSFinal_Approval_Date__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.User__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Waiving_Construction_Req_on_loans_1MM__c</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Within_AutoApproval_Criteria__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.cm_Approval_Required_Formula__c</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.cm_ChangeMemoFlag__c</members>
         <members>LLC_BI__Credit_Memo_Screen__c.LLC_BI__Active__c</members>
@@ -17002,8 +17047,11 @@
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Total_Standard_Fee_Amount__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__Total_Taxes_and_Other_Government_Fees__c</members>
         <members>LLC_BI__Fee_Loan_Aggregate__c.LLC_BI__lookupKey__c</members>
+        <members>LLC_BI__Fee__c.Add_Fee_to_Principal__c</members>
+        <members>LLC_BI__Fee__c.Annual_Requirement__c</members>
         <members>LLC_BI__Fee__c.Commitment_Note_Level__c</members>
         <members>LLC_BI__Fee__c.Deduct_from_Good_Faith_Deposit__c</members>
+        <members>LLC_BI__Fee__c.Fee_Description__c</members>
         <members>LLC_BI__Fee__c.Integration_Source__c</members>
         <members>LLC_BI__Fee__c.LLC_BI__Add_To_Finance_Charge__c</members>
         <members>LLC_BI__Fee__c.LLC_BI__Add_To_MAPR__c</members>
@@ -17340,6 +17388,7 @@
         <members>LLC_BI__Legal_Entities__c.LLC_BI__Treasury_Service__c</members>
         <members>LLC_BI__Legal_Entities__c.LLC_BI__lookupKey__c</members>
         <members>LLC_BI__Legal_Entities__c.Migration_ID__c</members>
+        <members>LLC_BI__Legal_Entities__c.UBLOSReg_O__c</members>
         <members>LLC_BI__Legal_Entities__c.cm_Has_Deposit__c</members>
         <members>LLC_BI__Lien__c.LLC_BI__Active__c</members>
         <members>LLC_BI__Lien__c.LLC_BI__Amount__c</members>
@@ -18002,6 +18051,7 @@
         <members>LLC_BI__Loan__c.Post_Closing_Review_Completed_Date__c</members>
         <members>LLC_BI__Loan__c.Primary_Source_of_Repayment__c</members>
         <members>LLC_BI__Loan__c.Reg_W_Reportable__c</members>
+        <members>LLC_BI__Loan__c.Risk_Rating_2__c</members>
         <members>LLC_BI__Loan__c.Secondary_Market_Buyer__c</members>
         <members>LLC_BI__Loan__c.Secondary_Source_of_Repayment__c</members>
         <members>LLC_BI__Loan__c.Submitted_for_Approval_Date__c</members>
@@ -21942,6 +21992,7 @@
         <members>ContractGroupPlan</members>
         <members>ContractGroupPlanGroupClass</members>
         <members>ContractLineItem</members>
+        <members>Credit_History_Setting__mdt</members>
         <members>Customer</members>
         <members>CustomerProperty</members>
         <members>DataUseLegalBasis</members>
@@ -22772,6 +22823,7 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Credit_History_Pull_Enabled</members>
         <members>LLC_BI__Collateral_Groups_Add_Collateral</members>
         <members>LLC_BI__Collateral_Groups_Add_Group_Members</members>
         <members>LLC_BI__Collateral_Groups_Remove_Collateral</members>
@@ -23301,12 +23353,17 @@
         <members>LLC_BI__Covenant__c.CM_Covenants_PPRV</members>
         <members>LLC_BI__Covenant__c.CM_Covenants_RRV</members>
         <members>LLC_BI__Covenant__c.LLC_BI__UI_Lookup_Fields</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Amortized_Term_Months</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Interest_Rate</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Does_Not_Require_Approval</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__InformationSection</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Memo_Detail</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Modification_Description</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Requires_Approval</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__UI_Memo_Action</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Loan_Amount</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Maturity_Date</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.Risk_Grade_Change</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.UI_Loan_Memo</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.cm_Does_Not_Require_Approval</members>
         <members>LLC_BI__Debt__c.LLC_BI__Add_Debt</members>
@@ -23862,6 +23919,7 @@
     <types>
         <members>CLA_Draw_Auto_Submit_for_Approval</members>
         <members>CRA_Reportable_Invocable</members>
+        <members>Check_Reg_O_on_Loan</members>
         <members>Commercial_LoanAutoDecision</members>
         <members>Contact_Create_Edit_All_LOB_Baseline</members>
         <members>Contact_Create_Edit_Master</members>
@@ -23903,6 +23961,7 @@
     <types>
         <members>CLA_Draw_Auto_Submit_for_Approval</members>
         <members>CRA_Reportable_Invocable</members>
+        <members>Check_Reg_O_on_Loan</members>
         <members>Commercial_LoanAutoDecision</members>
         <members>Contact_Create_Edit_All_LOB_Baseline</members>
         <members>Contact_Create_Edit_Master</members>
@@ -24051,6 +24110,7 @@
         <members>Contract-Contract Layout</members>
         <members>ContractGroupPlan-Contract Group Plan Layout</members>
         <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>Credit_History_Setting__mdt-Credit History Setting Layout</members>
         <members>Customer-Customer Layout</members>
         <members>CustomerProperty-Customer Property Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
@@ -25156,6 +25216,7 @@
     </types>
     <types>
         <members>AutoRABIT_User_Permission_Set</members>
+        <members>Credit_History_Pull_Permission</members>
         <members>LLC_BI__Clone_Only_Portfolio_Analytics_User</members>
         <members>LLC_BI__Configure_Underwriting_Statements</members>
         <members>LLC_BI__Configure_Underwriting_Statements_All</members>
@@ -27123,10 +27184,13 @@
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Update_Approval_Status_Field_Approved</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Update_Approval_Status_Field_Rejected</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Update_Approval_Status_Field_Review</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.UBLOSTrack_Final_Approval_Date</members>
+        <members>LLC_BI__Credit_Memo_Modifcation__c.UBLTM_Memo_Approved</members>
         <members>LLC_BI__Document_Placeholder__c.NDOC__Document_Placeholder_Set_Year</members>
         <members>LLC_BI__Fee__c.LLC_BI__Set_Fee_Record_Type_To_Adjustments</members>
         <members>LLC_BI__Fee__c.LLC_BI__Set_Fee_Record_Type_To_Costs</members>
         <members>LLC_BI__Fee__c.LLC_BI__Set_Fee_Record_Type_To_Fees</members>
+        <members>LLC_BI__Fee__c.UBLOSAdd_Fee_to_Principal</members>
         <members>LLC_BI__LLC_LoanDocument__c.NDOC__Loan_Document_Set_Year</members>
         <members>LLC_BI__Legal_Entities__c.Contingent_Amount_Null</members>
         <members>LLC_BI__LoanTeam__c.LoanTeamCloserAssigned</members>
@@ -27284,6 +27348,7 @@
         <members>LLC_BI__Covenant_Compliance__c.LLC_BI__Covenant Compliance Update Last Evaluation Date</members>
         <members>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Notify Credit Memo Mod Approved</members>
         <members>LLC_BI__Document_Placeholder__c.NDOC__Document Placeholder Set Blank Year From Date</members>
+        <members>LLC_BI__Fee__c.Add Fee to Principal</members>
         <members>LLC_BI__Fee__c.LLC_BI__Fee Set Record Type To Adjustments</members>
         <members>LLC_BI__Fee__c.LLC_BI__Fee Set Record Type To Costs</members>
         <members>LLC_BI__Fee__c.LLC_BI__Fee Set Record Type To Fees</members>

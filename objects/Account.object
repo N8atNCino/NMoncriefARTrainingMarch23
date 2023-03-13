@@ -2750,6 +2750,18 @@ Object: Account</description>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Bureau_Credit_Master_Score__c</fullName>
+        <description>Credit Master Score for PayNet Integration</description>
+        <externalId>false</externalId>
+        <label>Bureau Credit Master Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Business_Mailing_Address_Same_as_Physica__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Is your Business Mailing/Shipping Address the same as your Business Physical Address?</inlineHelpText>

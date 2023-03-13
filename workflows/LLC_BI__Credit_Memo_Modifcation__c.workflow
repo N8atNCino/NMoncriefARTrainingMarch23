@@ -108,6 +108,27 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UBLOSTrack_Final_Approval_Date</fullName>
+        <field>UBLOSFinal_Approval_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Track Final Approval Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UBLTM_Memo_Approved</fullName>
+        <field>LLC_BI__MailerTeamKey__c</field>
+        <formula>&quot;UBLTM_Memo_Approved&quot;</formula>
+        <name>UBLTM_Memo_Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>LLC_BI__Loan__c</targetObject>
+    </fieldUpdates>
     <rules>
         <fullName>LLC_BI__Notify Credit Memo Mod Approved</fullName>
         <actions>

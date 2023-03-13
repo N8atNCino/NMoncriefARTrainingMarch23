@@ -33,6 +33,32 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UBLOSAdd_Fee_to_Principal</fullName>
+        <field>LLC_BI__Amount__c</field>
+        <formula>LLC_BI__Loan__r.LLC_BI__Amount__c +  LLC_BI__Amount__c</formula>
+        <name>Add Fee to Principal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>LLC_BI__Loan__c</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Add Fee to Principal</fullName>
+        <actions>
+            <name>UBLOSAdd_Fee_to_Principal</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>LLC_BI__Fee__c.Add_Fee_to_Principal__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>increase the Loan Amount by the Fee Amount if the &quot;Add fee to principal&quot; field is checked</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
     <rules>
         <fullName>LLC_BI__Fee Set Record Type To Adjustments</fullName>
         <actions>

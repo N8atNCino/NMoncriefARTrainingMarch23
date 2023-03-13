@@ -11159,6 +11159,81 @@ Sum of Interest Only Months + Principal &amp; Interest Months</inlineHelpText>
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Risk_Rating_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Risk Grade 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B1</fullName>
+                    <default>false</default>
+                    <label>B1</label>
+                </value>
+                <value>
+                    <fullName>B2</fullName>
+                    <default>false</default>
+                    <label>B2</label>
+                </value>
+                <value>
+                    <fullName>C1</fullName>
+                    <default>false</default>
+                    <label>C1</label>
+                </value>
+                <value>
+                    <fullName>C2</fullName>
+                    <default>false</default>
+                    <label>C2</label>
+                </value>
+                <value>
+                    <fullName>C3</fullName>
+                    <default>false</default>
+                    <label>C3</label>
+                </value>
+                <value>
+                    <fullName>O</fullName>
+                    <default>false</default>
+                    <label>O</label>
+                </value>
+                <value>
+                    <fullName>S</fullName>
+                    <default>false</default>
+                    <label>S</label>
+                </value>
+                <value>
+                    <fullName>SICOL</fullName>
+                    <default>false</default>
+                    <label>SICOL</label>
+                </value>
+                <value>
+                    <fullName>SICF</fullName>
+                    <default>false</default>
+                    <label>SICF</label>
+                </value>
+                <value>
+                    <fullName>DICOL</fullName>
+                    <default>false</default>
+                    <label>DICOL</label>
+                </value>
+                <value>
+                    <fullName>DICF</fullName>
+                    <default>false</default>
+                    <label>DICF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Secondary_Market_Buyer__c</fullName>
         <externalId>false</externalId>
         <label>Secondary Market Buyer</label>
@@ -13235,6 +13310,57 @@ This formula uses an else/if structure to derive the exposure value and works as
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Risk_Rating_2__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICOL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Secondary_Source_of_Repayment__c</picklist>
             <values>
                 <fullName>Cash flow from Operations</fullName>
@@ -14339,6 +14465,57 @@ This formula uses an else/if structure to derive the exposure value and works as
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Risk_Rating_2__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICOL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Secondary_Source_of_Repayment__c</picklist>
             <values>
                 <fullName>Cash flow from Operations</fullName>
@@ -15423,6 +15600,57 @@ This formula uses an else/if structure to derive the exposure value and works as
             </values>
             <values>
                 <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk_Rating_2__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICOL</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16515,6 +16743,57 @@ This formula uses an else/if structure to derive the exposure value and works as
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Risk_Rating_2__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICOL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Secondary_Source_of_Repayment__c</picklist>
             <values>
                 <fullName>Cash flow from Operations</fullName>
@@ -17599,6 +17878,57 @@ This formula uses an else/if structure to derive the exposure value and works as
             </values>
             <values>
                 <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk_Rating_2__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SICOL</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

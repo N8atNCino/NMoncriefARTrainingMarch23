@@ -2494,6 +2494,14 @@ LLC_BI__Ownership__c * LLC_BI__Loan__r.LLC_BI__Amount__c,
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>UBLOSReg_O__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reg O</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>cm_Has_Deposit__c</fullName>
         <description>Used to filter deposit records in the Review credit memo. Added for Commercial Accelerate project.</description>
         <externalId>false</externalId>

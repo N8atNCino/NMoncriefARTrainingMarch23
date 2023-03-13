@@ -1539,6 +1539,22 @@ Object: Fees</description>
         <label>UI Loan Fees</label>
     </fieldSets>
     <fields>
+        <fullName>Add_Fee_to_Principal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Add Fee to Principal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Annual_Requirement__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Requirement</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Commitment_Note_Level__c</fullName>
         <externalId>false</externalId>
         <label>Commitment/Note Level</label>
@@ -1569,6 +1585,14 @@ Object: Fees</description>
         <label>Deduct from Good Faith Deposit</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fee_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Fee Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Integration_Source__c</fullName>

@@ -53,7 +53,7 @@
             <type>FieldUpdate</type>
         </action>
     </finalRejectionActions>
-    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <finalRejectionRecordLock>true</finalRejectionRecordLock>
     <initialSubmissionActions>
         <action>
             <name>Adverse_Action_Set_Status_to_Under_Rev</name>
